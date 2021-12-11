@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="img_2.png" /></div>
+<div style="text-align:center"><img src="img.png" /></div>
 
 #Short story
 For the long period of time i am into Information technologies.
