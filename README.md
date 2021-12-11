@@ -1,6 +1,6 @@
 <div style="text-align:center"><img src="img.png" /></div>
 
-#Short story
+#Short story.
 
 For the long period of time i am into Information technologies.
 It started about 20 years ago when i got my first 8 bit console.
