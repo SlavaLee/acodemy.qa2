@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="img.png" /></div>
+<div style="text-align:center"><img src="img.png"/></div>
 
 #Short story.
 
