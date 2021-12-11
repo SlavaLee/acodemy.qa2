@@ -18,6 +18,7 @@ Don't you think that 8 bit console (we call it [Dendy](https://en.wikipedia.org/
 | Units sold |     6 million |
 | Media|   ROM cartridge |
 | CPU |MOS Technology 6502 |
+
 Dendy or Nes (Nintendo Entertainment System) was so popular that to market came some Pirated clones of NES and Unlicensed games!  
 Pirated clones not always were fully tested and could have critical errors.  
 Famiclone games were cheap and affordable, many of them contained several games, unlike original licensed cartridges, up to 52 in one or maybe even more (with no repeats).  
