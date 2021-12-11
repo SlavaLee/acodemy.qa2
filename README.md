@@ -1,6 +1,7 @@
 <div style="text-align:center"><img src="img_2.png" /></div>
 
 #Short story
+
 For the long period of time i am into Information technologies.
 It started about 20 years ago when i got my first 8 bit console.
 Don't you think that 8 bit console (we call it [Dendy](https://en.wikipedia.org/wiki/Dendy_(console)))
