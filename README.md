@@ -35,3 +35,4 @@ When i was playing [C-12 ](https://i.ytimg.com/vi/mBL0O0fYM8E/maxresdefault.jpg)
 Once i found a way how to kill it. It was i defect in a door , so door to the Boss was closed but from one point you can shoot through the door and do some dmg to Boss.
 Boss was knocked out easily and that was my happy end.
 <div style="text-align:center"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Dendy_Logo.gif/150px-Dendy_Logo.gif" /></div>
+<div style="text-align:center">:copyright: 2021 Vjačeslavs O.</div>
