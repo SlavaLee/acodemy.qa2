@@ -29,7 +29,7 @@ But of course there were also downsides: plastic shells were cheaply built and b
 </p>
 </details>
 
-After 8 bit consoles i had 16 bit [Sega](https://en.wikipedia.org/wiki/Sega/) and than [Playstation 1](https://en.wikipedia.org/wiki/PlayStation_(console)) ( *PS* ).  
+After 8 bit consoles i had 16 bit [Sega](https://en.wikipedia.org/wiki/Sega) and than [Playstation 1](https://en.wikipedia.org/wiki/PlayStation_(console)) ( *PS* ).  
 Every game had their own features and i loved to find them. Spending nearly whole day i was playing games.  
 When i was playing [C-12 ](https://i.ytimg.com/vi/mBL0O0fYM8E/maxresdefault.jpg) on PS1 there was a Boss which i can't kill. I tried so many times but ended same way - battle was lost.  
 Once i found a way how to kill it. It was i defect in a door , so door to the Boss was closed but from one point you can shoot through the door and do some dmg to Boss.
