@@ -1,4 +1,0 @@
-10:17:39.029 [main] INFO  homework.Animal - 0 Energy ! So sad!
-10:17:39.031 [main] INFO  homework.Animal - It's training time!
-10:17:39.031 [main] INFO  homework.Animal - Play, play, play!
-10:17:39.031 [main] INFO  homework.Animal - Eat, sleep, repeat!!!
