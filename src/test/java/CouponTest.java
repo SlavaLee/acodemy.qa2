@@ -31,6 +31,7 @@ public class CouponTest {
         driver.get(PropertiesReader.getProperties().getProperty("home.page"));
     }
 
+
     @Test
     public void applyCouponCode() {
         log.info("Step 2: The user clicks on product: " + HOODIE);
