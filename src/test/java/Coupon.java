@@ -16,7 +16,7 @@ import static constans.Products.HOODIE;
 
 
 @Slf4j
-public class CouponTest {
+public class Coupon {
 
     private final WebDriver driver = LocalDriverManager.getInstance();
 
