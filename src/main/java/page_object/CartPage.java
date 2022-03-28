@@ -18,12 +18,16 @@ public class CartPage {
     private final WebDriver driver = LocalDriverManager.getInstance();
     private final WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(Long.parseLong(PropertiesReader.getProperties().getProperty("implicit.wait"))));
 
-    private final By couponCodeField = By.id("coupon_code");
+    private final By emailNameField = By.name("email");
+    private final By passwordNameField = By.name("password");
     private final By applyCouponButton = By.name("apply_coupon");
     private final By successMessage = By.className("woocommerce-message");
 
-    public void enterCoupon(String code) {
-        driver.findElement(couponCodeField).sendKeys(code);
+    public void enterEmail(String emailName) {
+        driver.findElement(emailNameField).sendKeys(emailName);
+    }
+    public void enterPassword(String passwordKey) {
+        driver.findElement(passwordNameField).sendKeys(passwordKey);
     }
 
     public void applyCoupon() {

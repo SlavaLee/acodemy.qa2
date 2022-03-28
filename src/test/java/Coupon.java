@@ -1,5 +1,4 @@
 import lombok.extern.slf4j.Slf4j;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
@@ -10,9 +9,7 @@ import page_object.ProductPage;
 import utils.LocalDriverManager;
 import utils.PropertiesReader;
 
-import static constans.Colors.BLUE;
-import static constans.Messages.COUPON_IS_APPLIED;
-import static constans.Products.HOODIE;
+import static constans.Products.pilseta;
 
 
 @Slf4j
@@ -31,45 +28,30 @@ public class Coupon {
         driver.get(PropertiesReader.getProperties().getProperty("home.page"));
     }
 
-
     @Test
-    public void applyCouponCode() {
-        log.info("Step 2: The user clicks on product: " + HOODIE);
-        homePage.clickOnProduct(HOODIE);
-
-        log.info("Step 3: The user selects a 'Blue' colour from the colour options bar.");
-        productPage.selectColor(BLUE);
-
-        log.info("Step 4: The user selects logo options 'Yes' from the option bar.");
-        productPage.selectLogo(true);
-
-        log.info("Step 5: The user adds Hoodie to cart by pressing 'Add to cart' button.");
-        productPage.addToCartjs();
-
-        log.info("Step 6: The user clicks on the 'view cart' button.");
+    public void closeBanner() {
+        log.info("Step 2: The user adds Hoodie to cart by pressing 'Add to cart' button.");
         productPage.viewCart();
-
-        log.info("Step 7: The user types 'easy_discount' into the 'coupon code' field.");
-        cartPage.enterCoupon("easy_discount");
-
-        log.info("Step 8: The user applied coupon code 'easy_discount'.");
-        cartPage.applyCoupon();
-
-        log.info("Step 9: The user sees the message 'Coupon code applied successfully'.");
-        cartPage.checkSuccessMessage(COUPON_IS_APPLIED);
-
-        log.info("Step 10: The user types 'additional_discount' into the 'coupon code' field.");
-        cartPage.enterCoupon("additional_discount");
-
-        log.info("Step 11: The user applied coupon code 'additional_discount'.");
-        cartPage.applyCoupon();
-
-        log.info("Step 12: The user sees the message 'Coupon code applied successfully'.");
-        cartPage.checkSuccessMessage(COUPON_IS_APPLIED);
+        log.info("Step 22: The user adds Hoodie to cart by pressing 'Add to cart' button.");
+        productPage.submitCookies();
+        log.info("Step 2 'Add to cart' button.");
+            productPage.loginElement();
+        log.info("Step 3: The user types 'easy_discount' into the 'coupon code' field.");
+        cartPage.enterEmail("d3f@inbox.lv");
+        log.info("Step 4: The user types 'easy_discount' into the 'coupon code' field.");
+        cartPage.enterPassword("Skolotaja1980");
+        log.info("Step 5: The user adds Hoodie to cart by pressing 'Add to cart' button.");
+        productPage.setSubmitButton();
+        log.info("Step 6 The user adds Hoodie to cart by pressing 'Add to cart' button.");
+        productPage.viewList();
+        log.info("Step 7 The user adds Hoodie to cart by pressing 'Add to cart' button.");
+        productPage.viewVacancy();
+        log.info("Step 2: The user clicks on product: " + pilseta);
+        homePage.clickOnProduct(pilseta);
     }
 
-    @AfterEach
-    public void tearDown() {
-        LocalDriverManager.closeDriver();
-    }
+//    @AfterEach
+//    public void tearDown() {
+//        LocalDriverManager.closeDriver();
+//    }
 }

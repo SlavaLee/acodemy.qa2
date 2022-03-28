@@ -17,7 +17,7 @@ public class HomePage {
     public final WebDriverWait wait =
             new WebDriverWait(driver, Duration.ofSeconds(Long.parseLong(PropertiesReader.getProperties().getProperty("explicit.wait"))));
 
-    private final By productElements = By.xpath("//ul[contains(@class, 'products')]//li");
+    private final By productElements = By.xpath("//*[@class=\"jsx-4110973867 my-vacancies\"]");
 
     public List<WebElement> getAllProducts() {
         wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(productElements));
