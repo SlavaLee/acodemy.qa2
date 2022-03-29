@@ -22,14 +22,14 @@ public class PageRemoverTest {
 
     @BeforeEach
     public void init() {
-        log.info("Step 1: The user opens job ads web page");
+        log.info("Step 1: The user opens job ads web page.");
         driver.get(PropertiesReader.getProperties().getProperty("home.page"));
     }
 
     @Test
     public void closeBanner() {
 
-        log.info("Step 2: The user closes popup banner");
+        log.info("Step 2: The user closes popup banner.");
         productPage.setCloseBanner();
 
         log.info("Step 3: The user agrees to use cookie by pressing 'ok' button.");
@@ -50,13 +50,13 @@ public class PageRemoverTest {
         log.info("Step 8: The user clicks on 'My job ads'.");
         productPage.myName();
 
-        log.info("Step 9: The user search for specific word");
+        log.info("Step 9: The user search for specific word.");
         productPage.myVacancy();
 
         log.info("Step 10: The user clicks on that vacancy: " + expiredText);
         homePage.clickOnProduct(expiredText);
 
-        log.info("Step 11: The user removes saved vacancy from his list");
+        log.info("Step 11: The user removes saved vacancy from his list.");
         productPage.setDeleteButton();
     }
 
