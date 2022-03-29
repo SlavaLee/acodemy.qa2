@@ -42,7 +42,7 @@ public class PageRemoverTest {
         loginPage.enterEmail("d3f@inbox.lv");
 
         log.info("Step 6: The user types password into the 'Password' field.");
-        loginPage.enterPassword("Skolotaja1980");
+        loginPage.enterPassword("Skola2022");
 
         log.info("Step 7: The user his name.");
         productPage.setSubmitButton();
